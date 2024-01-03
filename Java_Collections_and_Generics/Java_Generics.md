@@ -44,15 +44,15 @@ public class GenericExample {
 
 ### Generic Classes:
 <p>i) A generic class is implmented exactly like non-generic class. The only difference is that it contains a type parameter section.</p>
-<br>
+
 <p>ii) There can be more than one parameter separated by comma(,)</p>
-<br>
+
 <p>iii) The classes that accepts more than one parameter are called as <b>parameterized class</b> or <b>parameterized types.</b></p>
-<br>
+
 <p>iv) Users of the generic class can use it without casting, improving code readability and reducing the risk of runtime errors.</p>
-<br>
+
 <p>v) Users of the generic class can use it without casting, improving code readability and reducing the risk of runtime errors.</p>
-<br>
+
 <b>Syntaxt for creating a Generic Class:</b>
 
 ```java
