@@ -29,14 +29,13 @@
 <p>The above code snippet:</p>
 
 // Generic method to find the maximum of two elements
-
 public class GenericExample {
     public static <T extends Comparable<T>> T findMax(T a, T b) {
         return a.compareTo(b) > 0 ? a : b;
     }
 
     public static void main(String[] args) {
-        System.out.println(findMax(5, 8));      // Output is 8
-        System.out.println(findMax("abc", "xyz"));  // Output is xyz
+        System.out.println(findMax(5, 8));       // Output is 8
+        System.out.println(findMax("abc", "xyz")); // Output is xyz
     }
 }
