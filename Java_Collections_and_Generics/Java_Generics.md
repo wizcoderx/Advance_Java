@@ -29,6 +29,7 @@
 <p>The above code snippet:</p>
 
 // Generic method to find the maximum of two elements
+
 public class GenericExample {
     public static <T extends Comparable<T>> T findMax(T a, T b) {
         return a.compareTo(b) > 0 ? a : b;
