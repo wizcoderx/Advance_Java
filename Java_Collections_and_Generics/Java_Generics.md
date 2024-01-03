@@ -18,10 +18,10 @@
 
 ### Types of Generic in Java:
 
-<p>There are two types of Generics in Java 1st is <b>Generic Classes</b> and 2nd is <b>Generic Method</b></p>
+<p>There are two types of Generics in Java 1st is <b>Generic Methods</b> and 2nd is <b>Generic Classes</b></p>
 <br>
 
-<b><p>Generic Method:<b><p>
+### Generic Methods: 
 <p>i) In java Generic Method take some parameter and returns some value after completing of a task, In short generic methods in Java allows you to write an methods that can be operated on different types without specifying the type casting</p>
 <p>ii) The compilers take care of the type of safety which enables programmers to code easily and since they do not have to perform long, individual type castings</p>
 <br>
