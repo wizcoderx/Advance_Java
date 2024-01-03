@@ -21,21 +21,21 @@
 <p>There are two types of Generics in Java 1st is <b>Generic Methods</b> and 2nd is <b>Generic Classes</b></p>
 <br>
 
-### Generic Methods: 
+### Generic Methods:
 <p>i) In java Generic Method take some parameter and returns some value after completing of a task, In short generic methods in Java allows you to write an methods that can be operated on different types without specifying the type casting</p>
 <p>ii) The compilers take care of the type of safety which enables programmers to code easily and since they do not have to perform long, individual type castings</p>
 <br>
 
 <p>The above code snippet:</p>
-'''
-//Generic method to find the maximum of two elements
+
+// Generic method to find the maximum of two elements
 public class GenericExample {
-    public static <T extends Comparable<T>> T findMax(a,b) {
-        return a.compareTo(b)>0? a:b;
+    public static <T extends Comparable<T>> T findMax(T a, T b) {
+        return a.compareTo(b) > 0 ? a : b;
     }
-    public static void main(string[] args) {
-        System.out.println(findMax(5,8));//output is 8
-        System.out.println(findMax("abc","xyz")); //output is xyz
+
+    public static void main(String[] args) {
+        System.out.println(findMax(5, 8));      // Output is 8
+        System.out.println(findMax("abc", "xyz"));  // Output is xyz
     }
 }
-'''
